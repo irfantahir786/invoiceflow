@@ -1,0 +1,105 @@
+{
+  "is_gst_invoice": true,
+  "tables": [
+    {
+      "table_index": 0,
+      "headers": [
+        "Item No",
+        "Description",
+        "HSN Code",
+        "Qty",
+        "Rate",
+        "Amount"
+      ],
+      "rows": [
+        {
+          "Item No": "1",
+          "Description": "Laptop Computer",
+          "HSN Code": "8471",
+          "Qty": "2",
+          "Rate": "45000.00",
+          "Amount": "90000.00"
+        },
+        {
+          "Item No": "2",
+          "Description": "Wireless Mouse",
+          "HSN Code": "8471",
+          "Qty": "5",
+          "Rate": "500.00",
+          "Amount": "2500.00"
+        },
+        {
+          "Item No": "3",
+          "Description": "USB Cable",
+          "HSN Code": "8544",
+          "Qty": "10",
+          "Rate": "150.00",
+          "Amount": "1500.00"
+        },
+        {
+          "Item No": "4",
+          "Description": "Monitor 24 inch",
+          "HSN Code": "8528",
+          "Qty": "2",
+          "Rate": "12000.00",
+          "Amount": "24000.00"
+        },
+        {
+          "Item No": "",
+          "Description": "",
+          "HSN Code": "",
+          "Qty": "",
+          "Rate": "Subtotal:",
+          "Amount": "118000.00"
+        }
+      ],
+      "row_count": 5,
+      "column_count": 6,
+      "page_number": 1
+    },
+    {
+      "table_index": 1,
+      "headers": [
+        "Tax Type",
+        "Taxable Value",
+        "Rate",
+        "Tax Amount"
+      ],
+      "rows": [
+        {
+          "Tax Type": "CGST",
+          "Taxable Value": "59000.00",
+          "Rate": "9%",
+          "Tax Amount": "5310.00"
+        },
+        {
+          "Tax Type": "SGST",
+          "Taxable Value": "59000.00",
+          "Rate": "9%",
+          "Tax Amount": "5310.00"
+        },
+        {
+          "Tax Type": "",
+          "Taxable Value": "",
+          "Rate": "Total Tax:",
+          "Tax Amount": "10620.00"
+        },
+        {
+          "Tax Type": "",
+          "Taxable Value": "",
+          "Rate": "Grand Total:",
+          "Tax Amount": "128620.00"
+        }
+      ],
+      "row_count": 4,
+      "column_count": 4,
+      "page_number": 1
+    }
+  ],
+  "metadata": {
+    "total_pages": 1,
+    "total_tables": 2,
+    "total_rows": 9
+  },
+  "filename": "sample_invoice.pdf"
+}
